@@ -110,6 +110,8 @@ source $ZSH/oh-my-zsh.sh
 # dotfiles git configuration
 alias config="/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME"
 
+# nvim to vim override
+alias vim='nvim'
 
 
 export NVM_DIR="$HOME/.nvm"
